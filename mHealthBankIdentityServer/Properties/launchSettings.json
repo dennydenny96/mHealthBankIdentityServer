@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "SelfHost": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "BCA_HostedPayment_ClientKey": "7693f9640fd444ecb1b3e2dde6f1d654",
+        "BCA_HostedPayment_ClientSecret": "Uknqh5e+kRopJhVxZO4GKbmTOFSZBU01JDgvXdV5IH4=",
+        "Testing_ClientKey": "testID",
+        "Testing_ClientSecret": "testSecret"
+      },
+      "applicationUrl": "https://localhost:5001"
+    }
+  }
+}
